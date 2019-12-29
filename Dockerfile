@@ -1,6 +1,6 @@
-FROM alpine:3.9
+FROM alpine:3.11
 
-LABEL maintainer="docker@upshift.fr"
+LABEL maintainer="docker-remove@upshift.fr"
 
 RUN set -eux; \
 	# install needed packages
